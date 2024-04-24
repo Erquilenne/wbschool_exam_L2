@@ -35,6 +35,7 @@ import (
 // EventMap хранит данные о событиях
 var EventMap = &sync.Map{}
 
+// Config представляет конфигурацию сервера.
 type Config struct {
 	Port int `json:"port"`
 }
